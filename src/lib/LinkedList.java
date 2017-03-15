@@ -10,7 +10,7 @@ public class LinkedList {
 
 
     public LinkedList() {
-        head = new ListNode(null);
+        head = new ListNode(-1);
     }
 
     public ListNode getHead() {
