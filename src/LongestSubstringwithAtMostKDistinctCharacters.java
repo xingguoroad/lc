@@ -31,6 +31,8 @@ public class LongestSubstringwithAtMostKDistinctCharacters {
 
                     if (map.get(t) == 1) {
                         map.remove(t);
+                        start++;
+                        break;
                     } else {
                         map.put(t, map.get(t) - 1);
                     }
@@ -42,5 +44,11 @@ public class LongestSubstringwithAtMostKDistinctCharacters {
         max = Math.max(max, s.length() - start);
         return max;
 
+    }
+
+    public static void main(String[] args) {
+        LongestSubstringwithAtMostKDistinctCharacters lk = new LongestSubstringwithAtMostKDistinctCharacters();
+        String s = "eceba";
+        System.out.println(lk.lengthOfLongestSubstringKDistinct(s, 2));
     }
 }
