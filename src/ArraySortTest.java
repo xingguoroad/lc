@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
@@ -8,6 +9,9 @@ import java.util.Comparator;
 public class ArraySortTest {
     public static void main(String[] args) {
         Integer[] nums = new Integer[] {1, 3, 5, 2, 4, 6};
+        ArrayList<Integer>[] te = new ArrayList[10];
+        te[1] = new ArrayList<Integer>();
+        te[1].add(6);
 
         Arrays.sort(nums);
 
