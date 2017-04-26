@@ -24,4 +24,6 @@ public class SentenceScreenFitting {
 
         return start / length;
     }
+
+
 }

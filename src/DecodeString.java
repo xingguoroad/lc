@@ -36,7 +36,7 @@ public class DecodeString {
     }
 
     public static void main(String[] args) {
-        String s = "ef3[a2[c]]";
+        String s = "3[ab2[c]]";
         DecodeString ds = new DecodeString();
         System.out.println(ds.decodeString(s));
     }
