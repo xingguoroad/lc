@@ -21,10 +21,11 @@ public class ValidWordSquare {
 
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
-        list.add("ball");
-        list.add("asee");
-        list.add("let");
-        list.add("lep");
+
+        list.add("abcd");
+        list.add("bnrt");
+        list.add("crm");
+        list.add("dt");
         ValidWordSquare vs = new ValidWordSquare();
         System.out.println(vs.validWordSquare(list));
     }
